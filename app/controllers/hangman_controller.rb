@@ -3,16 +3,16 @@ class HangmanController < ApplicationController
   respond_to :html, :js
   
   def index
-	session[:string_entered]=""
-	@abc = ""
+ session[:string_entered]=""
+ @abc = ""
 
- @simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1, )  #fetch a random record from dictionary table
+ @simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1)  #fetch a random record from dictionary table
 
  session[:word]=@simplew.first.word
 					
  # session[:word] = "Rupali"
   session[:user_string] = "_" * session[:word].size
-  session[:guesses] = 7
+  session[:guesses] = 6
   respond_to do |format|
       format.html
     end
@@ -43,27 +43,14 @@ class HangmanController < ApplicationController
       else
         @abc = 'You have entered wrong letter. ' << (session[:guesses] - 1).to_s << " guesses left"
         session[:guesses] = session[:guesses] - 1
-        if session[:guesses] ==1
+        if session[:guesses] ==0
           @abc = "Correct word :  " << session[:word] << " <br> You lose"
         end
       end
     end
+#  @guess=session[:guesses]
   respond_with @abc
   end
 
-  def ajax_trial
-    respond_with @abc = "abc_abcde"
-  # session[:string_entered] << "z"
-  #respond_with @abc 
-  # respond_to do |format|
-  #   format.html { redirect_to('hangman') }
-  #   format.js 
-  #  end
-  #respond_to do |format|
-    #format.html { redirect_to('index') }
-   #     format.js
-   # end
-  
-  end
-
+ 
 end

@@ -1,1 +1,21 @@
-$('#abc_abcde').html('<%=@abc.html_safe %>');
+$('#abc_abcde').html('<%=@abc.html_safe %>'); // select 1st element having id = abc_abcde
+
+
+
+
+$guess_left = <%= session[:guesses] %>;
+
+if($guess_left == 5) 
+$('#image').html('<%=image_tag '1.png'%>');
+else if($guess_left == 4) 
+$('#image').html('<%=image_tag '2.png'%>');
+else if($guess_left == 3) 
+$('#image').html('<%=image_tag '3.png'%>');
+else if($guess_left == 2) 
+$('#image').html('<%=image_tag '4.png'%>');
+else if($guess_left == 1) 
+$('#image').html('<%=image_tag '5.png'%>');
+else if($guess_left == 0) 
+$('#image').html('<%=image_tag '6.png'%>');
+
+
