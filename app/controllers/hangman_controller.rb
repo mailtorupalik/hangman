@@ -6,12 +6,10 @@ class HangmanController < ApplicationController
 	session[:string_entered]=""
 	@abc = ""
 
-@simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1, )
+ @simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1, )  #fetch a random record from dictionary table
 
-session[:word]=@simplew.first.word
+ session[:word]=@simplew.first.word
 					
-#@simplew=Mysql.query("SELECT word FROM dictionaries ORDER BY RAND() LIMIT 1;")
- #@abc=session[:word]
  # session[:word] = "Rupali"
   session[:user_string] = "_" * session[:word].size
   session[:guesses] = 7
