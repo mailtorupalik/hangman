@@ -5,7 +5,14 @@ class HangmanController < ApplicationController
   def index
 	session[:string_entered]=""
 	@abc = ""
-  session[:word] = "Rupali"
+
+@simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1, )
+
+session[:word]=@simplew.first.word
+					
+#@simplew=Mysql.query("SELECT word FROM dictionaries ORDER BY RAND() LIMIT 1;")
+ #@abc=session[:word]
+ # session[:word] = "Rupali"
   session[:user_string] = "_" * session[:word].size
   session[:guesses] = 7
   respond_to do |format|
