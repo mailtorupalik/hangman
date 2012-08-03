@@ -1,0 +1,714 @@
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-02 18:32:47 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.3ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 97ms (Views: 82.9ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-02 18:33:43 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.3ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 97ms (Views: 83.7ms | ActiveRecord: 1.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-02 18:39:21 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.3ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 96ms (Views: 82.8ms | ActiveRecord: 1.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-02 18:44:41 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.3ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 97ms (Views: 56.6ms | ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-02 18:53:45 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.3ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 102ms (Views: 88.5ms | ActiveRecord: 1.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as HTML
+  Parameters: {"id"=>"h"}
+Completed 500 Internal Server Error in 86ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as HTML
+  Parameters: {"id"=>"h"}
+Completed 500 Internal Server Error in 74ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (3.9ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (3.8ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 93ms (Views: 79.4ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 96ms (Views: 82.0ms | ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 103ms (Views: 83.7ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (3.5ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+Processing by HangmanController#index as HTML
+  Parameters: {"id"=>"h"}
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 2.4ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (3.5ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+Processing by HangmanController#index as HTML
+  Parameters: {"id"=>"h"}
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 2.4ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (3.5ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+Processing by HangmanController#index as HTML
+  Parameters: {"id"=>"h"}
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 2.4ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (3.5ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+Processing by HangmanController#index as HTML
+  Parameters: {"id"=>"h"}
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 2.4ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 99ms (Views: 83.9ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 95ms (Views: 80.9ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 93ms (Views: 79.2ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (1.1ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 100ms (Views: 79.9ms | ActiveRecord: 2.5ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 93ms (Views: 78.9ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 86ms (Views: 72.4ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 86ms (Views: 72.0ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 87ms (Views: 72.5ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 86ms (Views: 71.7ms | ActiveRecord: 1.5ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 87ms (Views: 72.9ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 86ms (Views: 71.9ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 86ms (Views: 72.1ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 87ms (Views: 73.1ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 87ms (Views: 72.3ms | ActiveRecord: 1.5ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 86ms (Views: 72.2ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 86ms (Views: 44.2ms | ActiveRecord: 1.5ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 86ms (Views: 44.3ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 87ms (Views: 44.2ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 86ms (Views: 44.7ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.8ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 0.8ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 86ms (Views: 44.5ms | ActiveRecord: 1.4ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-03 16:20:14 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.5ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 105ms (Views: 86.9ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-03 16:26:44 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 99ms (Views: 85.2ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-03 16:26:44 +0530
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-03 16:36:42 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 99ms (Views: 85.1ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-03 16:36:42 +0530
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK

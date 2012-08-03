@@ -22,6 +22,8 @@ test:
   database: hangman
   pool: 5
   timeout: 5000
+  username: root
+  password: hangman
 
 production:
   adapter: mysql2

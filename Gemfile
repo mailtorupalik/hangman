@@ -7,7 +7,14 @@ gem 'rails', '3.2.1'
 
 #gem 'sqlite3'
 
+gem 'webrat'
 gem 'mysql2'
+gem 'selenium-client', '>= 1.2.17'
+
+
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -27,6 +34,11 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
+group :test do
+  gem 'selenium-webdriver'
+  gem 'capybara', '1.1.2'
+  gem 'launchy'
+end
 #gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
