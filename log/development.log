@@ -72586,3 +72586,552 @@ AbstractController::DoubleRenderError (Render and/or redirect were called multip
   Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
   Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
   Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 01:12:32 +0530
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.3ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+  Rendered hangman/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 164ms (Views: 80.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /jquery.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hangman.css?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /hangman.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/hangman.js?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /hangman.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.min.js?body=1" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /jquery-ui.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /rails.js - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /rails.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/0.png" for 127.0.0.1 at 2012-08-06 01:12:33 +0530
+Served asset /0.png - 304 Not Modified (1ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:12:36 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (1.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.png" for 127.0.0.1 at 2012-08-06 01:12:36 +0530
+Served asset /1.png - 304 Not Modified (1ms)
+
+
+Started GET "/hangman/process_letter/k" for 127.0.0.1 at 2012-08-06 01:12:38 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"k"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/2.png" for 127.0.0.1 at 2012-08-06 01:12:38 +0530
+Served asset /2.png - 304 Not Modified (1ms)
+
+
+Started GET "/hangman/process_letter/l" for 127.0.0.1 at 2012-08-06 01:12:39 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"l"}
+  Rendered hangman/process_letter.js.erb (8.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hangman/process_letter/m" for 127.0.0.1 at 2012-08-06 01:12:40 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"m"}
+  Rendered hangman/process_letter.js.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/3.png" for 127.0.0.1 at 2012-08-06 01:12:40 +0530
+Served asset /3.png - 304 Not Modified (1ms)
+
+
+Started GET "/hangman/process_letter/n" for 127.0.0.1 at 2012-08-06 01:12:41 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"n"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/4.png" for 127.0.0.1 at 2012-08-06 01:12:41 +0530
+Served asset /4.png - 304 Not Modified (1ms)
+
+
+Started GET "/hangman/process_letter/z" for 127.0.0.1 at 2012-08-06 01:12:42 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"z"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/5.png" for 127.0.0.1 at 2012-08-06 01:12:42 +0530
+Served asset /5.png - 304 Not Modified (1ms)
+
+
+Started GET "/hangman/process_letter/y" for 127.0.0.1 at 2012-08-06 01:12:43 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"y"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/hangman/process_letter/x" for 127.0.0.1 at 2012-08-06 01:12:44 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"x"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/hangman.css?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /hangman.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hangman.js?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /hangman.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /rails.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/jquery-ui.min.js?body=1" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /jquery-ui.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /rails.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/0.png" for 127.0.0.1 at 2012-08-06 01:19:02 +0530
+Served asset /0.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+  Rendered hangman/index.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hangman.css?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /hangman.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hangman.js?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /hangman.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.min.js?body=1" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /jquery-ui.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2012-08-06 01:24:44 +0530
+Served asset /rails.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2012-08-06 01:24:45 +0530
+Served asset /rails.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/rupali/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/0.png" for 127.0.0.1 at 2012-08-06 01:24:45 +0530
+Served asset /0.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman/process_letter/c" for 127.0.0.1 at 2012-08-06 01:24:46 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"c"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.png" for 127.0.0.1 at 2012-08-06 01:24:46 +0530
+Served asset /1.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman/process_letter/d" for 127.0.0.1 at 2012-08-06 01:24:47 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"d"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hangman/process_letter/q" for 127.0.0.1 at 2012-08-06 01:24:48 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"q"}
+  Rendered hangman/process_letter.js.erb (0.9ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/2.png" for 127.0.0.1 at 2012-08-06 01:24:48 +0530
+Served asset /2.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman/process_letter/r" for 127.0.0.1 at 2012-08-06 01:24:49 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"r"}
+  Rendered hangman/process_letter.js.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/3.png" for 127.0.0.1 at 2012-08-06 01:24:49 +0530
+Served asset /3.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman/process_letter/e" for 127.0.0.1 at 2012-08-06 01:24:50 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"e"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hangman/process_letter/s" for 127.0.0.1 at 2012-08-06 01:24:51 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"s"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hangman/process_letter/f" for 127.0.0.1 at 2012-08-06 01:24:52 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"f"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/4.png" for 127.0.0.1 at 2012-08-06 01:24:52 +0530
+Served asset /4.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman/process_letter/g" for 127.0.0.1 at 2012-08-06 01:24:54 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"g"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/5.png" for 127.0.0.1 at 2012-08-06 01:24:55 +0530
+Served asset /5.png - 304 Not Modified (0ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:24:56 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:24:57 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:24:58 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (35.0ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.1ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:24:58 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:24:58 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/hangman/process_letter/h" for 127.0.0.1 at 2012-08-06 01:24:59 +0530
+Processing by HangmanController#process_letter as JS
+  Parameters: {"id"=>"h"}
+  Rendered hangman/process_letter.js.erb (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/hangman_controller.rb:63:in `process_letter'
+
+
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/rupali/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
