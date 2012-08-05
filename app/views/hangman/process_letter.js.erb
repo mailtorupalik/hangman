@@ -2,6 +2,9 @@ $('#abc').html('<%=@abc.html_safe %>'); // select 1st element having id = abc_ab
 
 $guess_left = <%= session[:guesses] %>;
 
+if($guess_left==0)
+$('#startgame').html('<%=@start%>'); 
+
 if($guess_left == 5) 
 $('#image').html('<%=image_tag '1.png'%>');
 else if($guess_left == 4) 

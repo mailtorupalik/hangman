@@ -54,7 +54,11 @@ class HangmanController < ApplicationController
      		     if session[:guesses] ==0
               	     @abc = "Correct word :  " << session[:word] << " <br> You lost"
                      #index
-                     start_new_game
+                         @start= "hello"
+                       respond_with @start
+
+#                     render(start_new_game) 
+                     #start_new_game
          	     end
       
          end
@@ -63,7 +67,7 @@ class HangmanController < ApplicationController
   respond_with @abc
   end
 
-def start_new_game
+def start_new_gamew
  
                        @start="hello"
                        respond_with @start
