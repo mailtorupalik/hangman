@@ -13,7 +13,8 @@ describe "Hangmen" do
        end
        
 	it "displays You have entered wrong letter 5 guesses left" do
-            visit '/hangman'       
+            visit '/hangman'  
+                 
         end   
 
     end
