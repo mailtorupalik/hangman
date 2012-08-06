@@ -3,5 +3,10 @@
 #
 # Examples:
 #
+
+
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#    d=Dictionary.create(:word=>'airport',:word=>'album',:word=>'clock',:word=>'hammer');
+
+   Dictionaries=Dictionary.create([{word: 'eraser'},{word: 'table' },{word: 'chair'},{word: 'desktop'},{word: 'word'}])
