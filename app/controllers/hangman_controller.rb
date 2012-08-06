@@ -6,8 +6,8 @@ class HangmanController < ApplicationController
       #   @start=""
 	 session[:string_entered]=""
 
-	 @simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1)  #fetch a random record from dictionary table
- 	 session[:word]=@simplew.first.word
+	 @simplew=Dictionary.all.collect(&:word).shuffle.first #fetch a random record from dictionary table
+ 	 session[:word]=@simplew
 					
 	 # session[:word] = "Rupali"
   	 session[:user_string] = "-" * session[:word].size
