@@ -1,15 +1,10 @@
 class HangmanController < ApplicationController
 
   respond_to :html, :js
- 
-  def start_new_game
-        render(:action => 'index')     
-  end 
   
   def index
-         @start=""
+      #   @start=""
 	 session[:string_entered]=""
- 	 @abc = ""
 
 	 @simplew=Dictionary.find(:all,:order => 'RAND()',:limit => 1)  #fetch a random record from dictionary table
  	 session[:word]=@simplew.first.word
@@ -17,10 +12,13 @@ class HangmanController < ApplicationController
 	 # session[:word] = "Rupali"
   	 session[:user_string] = "-" * session[:word].size
   	 session[:guesses] = 6
-  end
+          
+ 	 @abc = "New game started     " << session[:user_string] 
+         respond_with @abc  
+end
 
   def process_letter
-  
+        
       letter_pressed = params[:id]
     
      if session[:string_entered].include? letter_pressed
@@ -53,12 +51,7 @@ class HangmanController < ApplicationController
 
      		     if session[:guesses] ==0
               	     @abc = "Correct word :  " << session[:word] << " <br> You lost"
-                     #index
-                         @start= "hello"
-                       respond_with @start
-
-#                     render(start_new_game) 
-                     #start_new_game
+                     # @start= "hello"
          	     end
       
          end
@@ -67,10 +60,5 @@ class HangmanController < ApplicationController
   respond_with @abc
   end
 
-def start_new_gamew
- 
-                       @start="hello"
-                       respond_with @start
-end
 
 end

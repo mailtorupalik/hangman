@@ -729,3 +729,40 @@ Processing by HangmanController#index as HTML
   [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
 Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.4ms)
   [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.5ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+  Rendered hangman/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 94ms (Views: 73.6ms | ActiveRecord: 1.9ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.4ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.4ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` ORDER BY RAND() LIMIT 1
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m

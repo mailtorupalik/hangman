@@ -2,8 +2,13 @@ $('#abc').html('<%=@abc.html_safe %>'); // select 1st element having id = abc_ab
 
 $guess_left = <%= session[:guesses] %>;
 
+/*$user_string=<!--%=session[:user_string]%>;
+$word=<!--%=session[:word]%>
+*/
 if($guess_left==0)
-$('#startgame').html('<%=@start%>'); 
+    $('#startgame').html('<%= link_to 'start new game', { :controller => 'hangman' , :action => 'index' } ,:remote => "true"  %>'); 
+
+
 
 if($guess_left == 5) 
 $('#image').html('<%=image_tag '1.png'%>');
