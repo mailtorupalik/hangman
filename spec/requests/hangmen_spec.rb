@@ -9,13 +9,9 @@ describe "Hangmen" do
        it "should have the content 'Hangman'" do
             visit '/hangman' 
          #   save_and_open_page
-            page.has_content?('Hangman')   
+         page.has_content?('Hangman')   
        end
        
-	it "displays You have entered wrong letter 5 guesses left" do
-            visit '/hangman'  
-                 
-        end   
 
     end
   end

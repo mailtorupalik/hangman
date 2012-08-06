@@ -40,6 +40,7 @@ end
         
                         if session[:user_string].downcase == session[:word].downcase
            	    		@abc = session[:word] << " <br>  You win !!!"
+                                session[:guesses]=0
               		else
               	   		@abc = session[:user_string]
               		end 

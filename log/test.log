@@ -766,3 +766,86 @@ Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.4ms)
 Processing by HangmanController#process_letter as JS
 Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 19:28:21 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.2ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` 
+  Rendered hangman/index.html.erb within layouts/application (41.5ms)
+Completed 200 OK in 101ms (Views: 86.3ms | ActiveRecord: 1.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 19:28:22 +0530
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.2ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` [0m
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hangman/process_letter/a" for 127.0.0.1 at 2012-08-06 19:28:22 +0530
+Processing by HangmanController#process_letter as HTML
+  Parameters: {"id"=>"a"}
+Completed 500 Internal Server Error in 8ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 19:29:36 +0530
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.1ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` 
+  Rendered hangman/index.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 100ms (Views: 86.7ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+
+
+Started GET "/hangman" for 127.0.0.1 at 2012-08-06 19:29:37 +0530
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.2ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` [0m
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hangman/process_letter/a" for 127.0.0.1 at 2012-08-06 19:29:37 +0530
+Processing by HangmanController#process_letter as HTML
+  Parameters: {"id"=>"a"}
+Completed 500 Internal Server Error in 8ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.1ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` 
+  Rendered hangman/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 61ms (Views: 46.1ms | ActiveRecord: 1.2ms)
+Processing by HangmanController#process_letter as JS
+  Rendered hangman/process_letter.js.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.2ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` [0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.1ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` 
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by HangmanController#index as HTML
+  [1m[36mDictionary Load (0.2ms)[0m  [1mSELECT `dictionaries`.* FROM `dictionaries` [0m
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by HangmanController#index as HTML
+  [1m[35mDictionary Load (0.1ms)[0m  SELECT `dictionaries`.* FROM `dictionaries` 
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+Processing by HangmanController#process_letter as JS
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m

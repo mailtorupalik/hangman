@@ -11,3 +11,9 @@ REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
 REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
 REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
 REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
+REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
+REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
+REQUESTING PAGE: GET /hangman/process_letter/a with {} and HTTP headers {"HTTP_REFERER"=>"/hangman"}
+REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
+REQUESTING PAGE: GET /hangman with {} and HTTP headers {}
+REQUESTING PAGE: GET /hangman/process_letter/a with {} and HTTP headers {"HTTP_REFERER"=>"/hangman"}
